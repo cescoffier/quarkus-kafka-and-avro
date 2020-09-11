@@ -1,0 +1,15 @@
+{
+  "namespace": "me.escoffier.quarkus",
+  "type": "record",
+  "name": "Movie",
+  "fields": [
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "year",
+      "type": "int"
+    }
+  ]
+}
