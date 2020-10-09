@@ -11,7 +11,7 @@ _NOTE:_ stop the infrastructure with: `docker-compose down; docker-compose rm`
 ## Build and Run
 
 ```bash
-mvn quarkus:dev
+mvn compile quarkus:dev
 ```
 
 ## Demo
