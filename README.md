@@ -14,6 +14,12 @@ _NOTE:_ stop the infrastructure with: `docker-compose down; docker-compose rm`
 mvn compile quarkus:dev
 ```
 
+To build the native executable:
+
+```bash
+mvn package -Pnative
+```
+
 ## Demo
 
 ```bash
